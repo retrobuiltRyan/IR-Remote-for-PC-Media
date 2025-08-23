@@ -6,14 +6,14 @@
 const char* lookupDescriptions[] = {  //Table inded matches the remote
   "", // index 0 reserved for profile switches
   "Alt+Tab",
-  "nul", // index 2 unused
+  "Fullscreen", // index 2 unused
   "Up",
   "Down",
   "  -5s",
   "  +5s",
   "Subtitles", 
   "Prev vid",  
-  "Fullscreen",
+  "nul",
   "Next vid",
   " -10s",
   "play/pause",
@@ -45,7 +45,10 @@ void handleProfile0() { //YouTube//////
     resetButtonState();
   }
 
-  if (lookupTable[2].state == 1){ // unassigned 
+  if (lookupTable[2].state == 1){ // f fullscreen
+    Keyboard.press('f'); delay(25);
+    Keyboard.release('f'); delay(25);
+ 
     displayFunction(lookupDescriptions[2]);
     resetButtonState();
   }
@@ -86,18 +89,17 @@ void handleProfile0() { //YouTube//////
   }
 
     if (lookupTable[8].state == 1){ // shift + p prev video
-        Keyboard.press(KEY_LEFT_SHIFT);
+    Keyboard.press(KEY_LEFT_SHIFT);
     Keyboard.press('p');
     Keyboard.release(KEY_LEFT_SHIFT);
     Keyboard.release('p');
-     displayFunction(lookupDescriptions[8]);
-     resetButtonState();
+    displayFunction(lookupDescriptions[8]);
+    resetButtonState();
   }
 
-  if (lookupTable[9].state == 1){ // 'f' for fullscreen
-    Keyboard.press('f'); delay(25);
-    Keyboard.release('f'); delay(25);
-    displayFunction(lookupDescriptions[9]);
+  if (lookupTable[9].state == 1){ // 
+  //something
+   displayFunction(lookupDescriptions[9]);
     resetButtonState();
   }
 
