@@ -1,6 +1,8 @@
 # IR-Remote-for-PC-Media
 Custom PCB + code for multi app media PC control with generic IR remote. Use an Arduino Pro Micro or RP2040 Pro Micro to decode an IR remote, assign macros. 
 Control your PC with a USB HID (keyboard) device using an IR remote.
+https://youtu.be/KI53avHp_a4
+
 
 ![P1110614](https://github.com/user-attachments/assets/a394f5b0-f464-4afe-bd9c-43775ce63493)
 
