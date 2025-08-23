@@ -23,6 +23,6 @@ Control your PC with a USB HID (keyboard) device using an IR remote.
 
 **Total Cost: $12.95**
 
-I like this remote- it's cheap and has firm clickyl buttons. 
+I like this remote- it's cheap and has firm, clicky buttons. 
 <img width="1256" height="761" alt="roku remote aliexpress 2" src="https://github.com/user-attachments/assets/1b206e3d-dd41-48a7-b378-617f651b4be6" />
 Note: (The example code will not work if your main TV is a roku TV; you'll need to decode and program with a different remote than your TV). 
