@@ -25,6 +25,5 @@ https://youtu.be/KI53avHp_a4
 
 **Total Cost: $12.95**
 
-I like this remote- it's cheap and has firm, clicky buttons. 
-<img width="1256" height="761" alt="roku remote aliexpress 2" src="https://github.com/user-attachments/assets/1b206e3d-dd41-48a7-b378-617f651b4be6" />
-Note: (The example code will not work if your main TV is a roku TV; you'll need to decode and program with a different remote than your TV). 
+
+Note: (The example code will not work if your main TV is a roku TV; you'll need to decode and program a different remote [brand/ protocol] than your TV). 
