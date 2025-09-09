@@ -14,7 +14,7 @@ https://youtu.be/KI53avHp_a4
 | Reference         | Value                | Qty | Cost Each | Line Total | DigiKey P/N         | AliExpress Link                                                                 |
 |------------------|----------------------|-----|------------|-------------|----------------------|----------------------------------------------------------------------------------|
 | C1, C2, C3, C4, C5| 0.1uF 50V            | 5   | $0.07      | $0.35       | 1276-1068-1-ND        |                                                                                  |
-| D1, D2, D3, D4, D5| WS2812B              | 5   | $0.10      | $0.50       |                      | [AliExpress](https://www.aliexpress.us/item/3256802466699315.html)             |
+| D1, D2, D3, D4, D5| WS2812B              | 5   | $0.10      | $0.50       | 1568-16347CT-ND    | [AliExpress](https://www.aliexpress.us/item/3256802466699315.html)             |
 | J3               | OLED 1.3" 128x64     | 1   | $4.59      | $4.59       |                      | [AliExpress](https://www.aliexpress.us/item/3256806824217573.html)             |
 | R1               | 220 ohm              | 1   | $0.02      | $0.02       | 311-220FRCT-ND        |                                                                                  |
 | SW1              | SW Push Button       | 1   | $0.12      | $0.12       | CKN12221-1-ND         |                                                                                  |
